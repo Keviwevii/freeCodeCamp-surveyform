@@ -4,16 +4,25 @@
         <meta lang="en">
     </head>
     <h1 id="title">Cafe Bonjour</h1>
-    <p>Please provide your answers to help us make your cafe experience better.</p>
+    <p id="description">Please provide your answers to help us make your cafe experience better.</p>
     <form id="survey-form">
-        <label for="name-label"><input type="text" placeholder="Enter your name"></label>
-        <label for="email-label"><input type="email" placeholder="Enter your email""></label>
-        <label for="number-label"><input type="number" min="10" max="10" placeholder="phone number"></label>
+        <label id="name-label"><input type="text" placeholder="Enter your name" id="name" required>Name</label>
+        <label id="email-label"><input type="email" placeholder="Enter your email" id="email" required>Email</label>
+        <label id="number-label"><input type="number" min="10" max="10" placeholder="phone number" id="number">Number</label>
         <select id="dropdown">
             <option>Coffee</option>
             <option>Tea</option>
             <option>Bakery Good</option>
             <other></other>
         </select>
+        <p>Were you satisfied with your visit</p>
+        <label><input type="radio" name="satisfaction-answer" value="Yes">Yes</label>
+        <label><input type="radio" name="satisfaction-answer" value="No">No</label>
+        <p>What would you like to see more of?</p>
+        <label><input type="checkbox" value="Drinks">Drinks</label>
+        <label><input type="checkbox" value="Food">Food</label>
+        <p>Do you have any additional comments?</p>
+        <textarea></textarea>
+        <label id="submit-button"><input id="submit" type="submit"></label>
     </form>
 </html>
