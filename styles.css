@@ -1,0 +1,42 @@
+/* Potential Colors for this project
+
+#806000 - Brown - Main Color
+#4E4637 - Dark Brown
+#B5AA99 - Slate
+#00785B - Forest Green
+#00AD8D - Teal
+*/
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body {
+    background-color: #806000;
+}
+
+#survey-form {
+    display: block;
+    text-align: center;
+    padding: 15px 15px 0 15px;
+    
+}
+
+form {
+    background-color: ;
+}
+
+#number-label, #name-label, #email-label {
+
+    display: block;
+    margin: 20px;
+
+}
+
+img {
+    width: 200px;
+    height: autp;
+}
+
+#submit-button {
+    display: block;
+}
